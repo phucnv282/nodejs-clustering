@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-clustering",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node no-clustering.js",
+    "startc": "node with-clustering.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "loadtest": "^5.1.2"
+  }
+}
