@@ -1,5 +1,6 @@
 const express = require("express");
 const port = 3000;
+console.log("");
 
 const app = express();
 console.log(`Worker number ${process.pid} started`);
